@@ -1,0 +1,98 @@
+<meta charset="utf-8">
+<script>
+	var bg_style = {
+		body_color:"rgba(0,0,0,0)",
+		base_color:"rgba(0,0,0,0)",
+		bg_color  :"rgba(0,0,0,0)",
+		bg_image  :"", // "https://s3.amazonaws.com/media-p.slid.es/uploads/takaakiwatanabe/images/521412/github-octocat.png",
+		bg_repeat :"no-repeat",
+	}
+</script>
+<script src="http://nabepon.github.io/repos/RevealLite/RevealLite.js"></script>
+
+<div class="reveal">
+<div class="slides">
+	
+    <!-- data-separator="---" 「---」でスライドを区切る。 -->
+    <section data-markdown data-separator="---">
+        <script type="text/template">
+            # Demo 1
+            Slide 1
+            ---
+            # Demo 1
+            Slide 2
+            ---
+            # Demo 1
+            Slide 3
+        </script>
+    </section>
+
+    <!-- data-vertical="--" 「--」で縦にスライドを区切る。 -->
+    <section data-markdown data-separator="---" data-vertical="--">
+        <script type="text/template">
+            ## Demo 2
+            Slide 1.1
+            --
+            ## Demo 2
+            Slide 1.2
+            ---
+            ## Demo 2
+            Slide 2
+        </script>
+    </section>
+
+    <!-- data-separatorがないので、Markdownの仕様で水平線になる -->
+    <section data-markdown>
+        <script type="text/template">
+            A
+
+            ---
+
+            B
+
+            ---
+
+            C
+        </script>
+    </section>
+    
+    <!-- slide: ***、でスライドを指定、data-backgroundで属性を指定 -->
+    <section data-markdown>
+        <script type="text/template">
+            <!-- .slide: data-background="#000000" -->
+            ## Slide attributes
+        </script>
+    </section>
+
+    <!-- .element: ***、で要素の属性を追加できる -->
+    <section data-markdown>
+        <script type="text/template">
+            ## Element attributes
+            - Item 1 <!-- .element: class="fragment" -->
+            - Item 2 <!-- .element: class="fragment" -->
+        </script>
+    </section>
+    
+    <!-- 位置調整例 -->
+	<section data-markdown >
+		<script type="text/template">
+			## Title <!-- .element: style="position: relative; right:10%; top:10px; text-align:right;" -->
+			## Title <!-- .element: style="position: relative; left:10%; top:10px;" -->
+		</script>
+	</section>
+
+    <!-- Code -->
+    <section data-markdown>
+        <script type="text/template">
+            ```php
+            public function foo()
+            {
+                $foo = array(
+                    'bar' => 'bar'
+                )
+            }
+            ```
+        </script>
+    </section>
+</div>
+</div>
