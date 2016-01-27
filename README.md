@@ -5,12 +5,17 @@ RevealLite
 Reveal.jsを、1枚のhtmlでシンプルに使用可能にしたもの。  
 Markdown記法でスライドを作ることができます。  
 
+## サンプル
+以下のように、1枚のhtmlでスライドを作成できます。
+http://nabepon.github.io/repos/RevealLite/sample.html
+
 ## 使い方
 使い方はsample.htmlを見てください。  
 基本のテンプレートは以下になります。  
 
 ```
 <meta charset="utf-8">
+<!-- 使い方：https://github.com/nabepon/nabepon.github.io/tree/master/repos/RevealLite -->
 <script src="http://nabepon.github.io/repos/RevealLite/RevealLite.js"></script>
 <div class="reveal">
 <div class="slides">
