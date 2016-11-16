@@ -16,7 +16,7 @@ https://nabepon.github.io/RevealLite/sample.html
 ```
 <meta charset="utf-8">
 <!-- 使い方：https://github.com/nabepon/RevealLite -->
-<script src="https://nabepon.github.io/RevealLite/RevealLite.js"></script>
+<script src="http://nabepon.github.io/RevealLite/RevealLite.js"></script>
 <div class="reveal">
 <div class="slides">
     <section data-markdown data-separator="---">
