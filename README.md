@@ -7,7 +7,7 @@ Markdown記法でスライドを作ることができます。
 
 ## サンプル
 以下のように、1枚のhtmlでスライドを作成できます。
-http://nabepon.github.io/repos/RevealLite/sample.html
+https://nabepon.github.io/RevealLite/sample.html
 
 ## 使い方
 使い方はsample.htmlを見てください。  
@@ -15,8 +15,8 @@ http://nabepon.github.io/repos/RevealLite/sample.html
 
 ```
 <meta charset="utf-8">
-<!-- 使い方：https://github.com/nabepon/nabepon.github.io/tree/master/repos/RevealLite -->
-<script src="http://nabepon.github.io/repos/RevealLite/RevealLite.js"></script>
+<!-- 使い方：https://github.com/nabepon/RevealLite -->
+<script src="https://nabepon.github.io/RevealLite/RevealLite.js"></script>
 <div class="reveal">
 <div class="slides">
     <section data-markdown data-separator="---">
